@@ -1,0 +1,10 @@
+let num1 = parseInt(window.prompt("Dame un numero entre en 25 y 75"));
+let num2 = parseInt(window.prompt("Dame otro numero entre 25 y 75 "));
+let num1a = num1.substring(0);
+let num1b = num1.substring(1);
+let num2a = num2.substring(0);
+let num2b = num2.substring(1);
+if (num1a= num2a){ window.alert(`el numero ${num1a}es comun`);}
+else if (num1a=num2b){ window.alert(`el digito ${num1a} es comun`);}
+else if (num1b=num2a){ window.alert(`el digito ${num2a} es comun`);}
+else if (num1b=num2b){ window.alert(`el digito ${num2a} es comun`);}
